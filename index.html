@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="orange">
+    <h1><center>Application for University</center></h1>
+    <h2>Please fill out the application form carefully</h2>
+    <form>
+        <label for="name">Your Name:</label>
+        <input type="text" placeholder="Enter Your Name" id="name">
+        <br>
+        <label>Father's Name:</label>
+        <input type="text" placeholder="Enter Your Father's Name">
+        <br>
+        <label>Mother's Name:</label>
+        <input type="text" placeholder="Enter Your Mother's Name">
+        <br>
+        <label>Date of Birth:</label>
+        <input type="date">
+        <br>
+        <label>Email Address:</label>
+        <input type="email">
+        <br>
+        <label>Password:</label>
+        <input type="password">
+        <br>
+        <label>Age:</label>
+        <input type="number" min="20" max="45">
+        <br>
+        <label>Favorite Color:</label>
+        <input type="color">
+        <br>
+        <label>Facebook URL:</label>
+        <input type="url">
+        <br>
+        <p>Gender:</p>
+        <input type="radio" name="gender" id="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female">
+        <label for="female">Female</label>
+        <br>
+        <p>Hobby:</p>
+        <input type="checkbox" id="reading">
+        <label for="reading">Reading</label>
+        <input type="checkbox" id="swimming">
+        <label for="swimming">Swimming</label>
+        <br>
+        <label>Program:</label>
+        <select>
+            <optgroup label="Group-1">
+                <option>Diploma</option>
+                <option>Bachelor</option>
+            </optgroup>
+            <optgroup label="Group-2">
+                <option selected>Masters</option>
+                <option disabled>PHD</option>
+            </optgroup>
+        </select>
+        <br>
+        <label>Address:</label>
+        <textarea placeholder="Address" rows="05" cols="20"></textarea>
+        <br>
+        <fieldset>
+            <legend>Form</legend>
+            <input type="text">
+        </fieldset>
+        <br>
+        <input type="file" multiple>
+        <br>
+        <input type="image" src="https://thumbs.gfycat.com/FavoriteRaggedDamselfly-size_restricted.gif" width="100">
+        <br>
+        <button type="submit">Submit</button>
+        <input type="reset" value="Reset Form">
+    </form>
+</body>
+</html>
